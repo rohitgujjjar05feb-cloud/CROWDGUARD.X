@@ -1,91 +1,178 @@
 # CROWDGUARD X 🛡️
-### AI-Powered Crowd Mobility Simulation and Management Platform
-**SISTec Innovation Hackathon 2026**  
-**Problem Statement ID:** IS-15 | **Category:** Software / AI & Intelligent Systems  
-**Team Name:** NovaTech  
-**Motto:** *PREDICT • SIMULATE • PROTECT*  
+### AI-Powered Crowd Mobility Simulation & Management Platform
+
+**PREDICT • SIMULATE • PROTECT**
+
+CROWDGUARD X is a software-first Crowd Digital Twin platform designed to help authorities visualise crowd movement, explore congestion risks, simulate emergency scenarios, and evaluate management decisions before real-world execution.
+
+**Category:** Software / AI & Intelligent Systems
 
 ---
 
-## 🌟 Executive Overview
-**CROWDGUARD X** is an AI-powered Crowd Digital Twin that predicts crowd movements, detects emerging congestion and risk zones, and simulates crowd-flow and evacuation scenarios **before action is taken**.
+## 🚀 Live Project
 
-> **From "Where is the crowd?" to "What happens next — and what if we change the response?"**
+| Resource | Link |
+|---|---|
+| **Live Interactive Demo** | https://crowdguard-x.vercel.app/ |
+| Backend API | https://crowdguard-x-backend.vercel.app/ |
+| API Venues Endpoint | https://crowdguard-x-backend.vercel.app/api/venues |
 
----
-
-## 🚀 Key Platform Experiences
-
-### 1. The Great Launch Experience
-- **Prestigious Times New Roman Typography**: Editorial, governmental, and defense command center aesthetic.
-- **Cinematic Atmosphere**: HTML5 Canvas rendering animated crowds moving beneath stadium searchlights and sweeping laser scanlines.
-- **Interactive Multi-Phase Boot Sequence**:
-  - Phase 1: Spatial Mesh & Sensor Gateway Calibration (`Maha Kumbh 2025` / `Bhopal Junction`)
-  - Phase 2: Helbing Social Force Pedestrian Engine Initialization (280+ agents)
-  - Phase 3: XGBoost Multi-Horizon Predictive Density Calibration (`+2m`, `+5m`, `+10m`)
-  - Phase 4: Autonomous Incident Decision Copilot Synchronization
-  - Phase 5: Digital Twin Online!
-- **Audio Telemetry Synthesizer**: Deep power-up drones, radar chirps, and harmonic success chords (Web Audio API).
-- **Subsystem Readiness**: 4 check badges (*Venue Model Loaded*, *Prediction Engine Ready*, *Simulation Engine Ready*, *Decision Copilot Ready*).
+**Explore the live platform:** https://crowdguard-x.vercel.app/
 
 ---
 
-### 2. The Unified Command Platform (All-In-One Living System)
-Instead of fragmented screens, the platform unifies the entire operational workflow on a single live command console:
+## 🎯 Problem Statement
 
-1. **Top KPI Telemetry Bar**:
-   - Total Crowd: **42,580** (`↑ 12% in last 15 min`)
-   - Avg. Density: **68%** (`↑ 8%`)
-   - Risk Level: **Medium** (Amber bottleneck alert)
-   - Next Horizon: **+5 min**
+Large public gatherings such as religious events, railway stations, festivals, and stadiums face unpredictable crowd movement, sudden congestion, and emergency evacuation challenges.
 
-2. **Central Interactive Aerial Digital Twin Map**:
-   - Live 280+ autonomous pedestrian agents obeying Social Force Model physics.
-   - Thermal density heatmaps (Very High: Red, High: Amber, Medium: Yellow, Low: Green).
-   - Gates marked: `Gate G1`, `▲ Gate G2` (Choke Point), `Gate G3` (East Bypass Corridor), `Gate G4` (South Pier Exit), `Gate G5`.
-   - Floating Bottom-Right Warning: *"Zone B density is rising (81%). Predicted bottleneck in 5 minutes."*
-   - Live Zone Status Matrix (`Zone A Low 24%`, `Zone B High 81%`, `Zone C Med 54%`, `Zone D Low 32%`, `Exit Safe 18%`).
+Traditional monitoring primarily focuses on observing current conditions, offering limited opportunities to evaluate the potential impact of crowd-management decisions.
 
-3. **Interactive Intelligence Dock (Right Side)**:
-   - **🔮 Predictions Tab**: Recharts 10-minute projection curve peaking at **81%** against the 75% critical threshold; zone forecast table (`Zone A Low ↑`, `Zone B High ↑`, etc.).
-   - **🧪 What-If Lab Tab**: Virtual incident sandbox with interactive toggles:
-     - ☑️ Close Gate G2 (Halt inbound choke)
-     - ☑️ Redirect flow to G3 (East Bypass Corridor)
-     - ⬜ Increase exit capacity
-     - ⬜ Emergency evacuation
-     - Instant visual diversion lines rendered directly on the aerial map!
-   - **⚖️ Before / After Tab**: Side-by-side comparative simulation metrics:
-     - Unmitigated: 81% density, High risk, 72% exit load, slow flow (~0.38 m/s).
-     - Mitigated: 57% density (`-24%`), Low risk, 61% exit load, smooth flow (~1.24 m/s).
-   - **🤖 AI Decision Copilot Tab**:
-     - Actionable recommendations with explainable **"Why?"** cards.
-     - `[ Apply Suggestion & Deploy Mitigation Orders ]` button.
-     - Interactive AI incident chat assistant.
-
-4. **Scenario Complete Celebratory Modal**:
-   - Fires celebratory confetti burst upon mitigation deployment.
-   - 4 Outcome Badges: **Congestion ↓24%**, **Risk High → Low**, **Flow ↑31%**, **Safer Route Identified**.
-   - Confirmation: *"✓ Recommended response applied. Crowd movement is now under control."*
+**The Challenge:** How can authorities anticipate congestion, virtually test interventions, and improve emergency preparedness before a critical situation develops?
 
 ---
 
-### 3. 9-Screen Architecture Storyboard View (Panoramic Grid)
-- Directly accessible from the top header button (`[ 9-Screen Storyboard Grid ]`).
-- Renders the complete **3x3 architectural grid** matching your uploaded presentation storyboard image so hackathon judges can inspect the entire system architecture simultaneously.
+## 💡 Our Solution
+
+CROWDGUARD X introduces an interactive Crowd Digital Twin that transforms crowd monitoring into scenario-based decision support.
+
+The platform enables operators to:
+
+- Visualise venue layouts, crowd zones, and movement.
+- Explore potential congestion and bottleneck conditions.
+- Simulate gate closures, crowd diversion, and emergency scenarios.
+- Compare baseline and modified crowd conditions.
+- Evaluate interventions through a centralised command dashboard.
+
+**Our Approach:** Move beyond asking *"Where is the crowd?"* towards *"What could happen next, and what if we change our response?"*
 
 ---
 
-## ⚡ Quick Start
+## ✨ Key Features
 
-```bash
-# Frontend (already running):
-npm run dev
-```
-Open **[http://localhost:5173/](http://localhost:5173/)** in your browser.
+### 1. Interactive Digital Twin
+Visual representation of crowd movement, venue zones, entry/exit gates, and congestion conditions.
 
-```bash
-# (Optional) Python FastAPI Backend:
-pip install -r backend/requirements.txt
-python backend/main.py
-```
-FastAPI Swagger API docs: **[http://localhost:8000/docs](http://localhost:8000/docs)**.
+### 2. Unified Command Dashboard
+Centralised interface displaying crowd statistics, zone conditions, risk indicators, and simulation controls.
+
+### 3. What-If Simulation Lab
+Explore operational scenarios, including:
+
+- Gate closure
+- Crowd flow diversion
+- Increased exit capacity
+- Emergency evacuation
+
+### 4. Before vs After Analysis
+Compare baseline and modified scenarios to understand the potential impact of management decisions.
+
+### 5. Crowd Risk Visualisation
+Colour-coded density indicators and zone-level risk information for easier interpretation.
+
+### 6. Decision-Support Experience
+Interactive interface presenting suggested interventions and potential outcomes.
+
+### 7. Architecture Storyboard
+A dedicated nine-screen storyboard presenting the platform's broader system concept.
+
+---
+
+## 🛠️ Technology Stack
+
+| Component | Technology |
+|---|---|
+| Frontend | React.js, TypeScript, Vite |
+| Backend | Python, FastAPI |
+| API Communication | REST API |
+| Data Visualisation | Recharts |
+| Interactive Graphics | HTML5 Canvas |
+| Deployment | Vercel |
+| Version Control | Git & GitHub |
+
+---
+
+## ⚙️ Implementation Workflow
+
+1. **Select Venue** – Load the selected venue environment.
+2. **Visualise Crowd** – Display crowd movement, zones, and density conditions.
+3. **Identify Risks** – Explore potential congestion and bottleneck areas.
+4. **Run Simulation** – Apply virtual interventions such as gate closure or diversion.
+5. **Compare Outcomes** – Examine Before vs After simulation results.
+6. **Support Decisions** – Present visual insights for operational planning.
+
+---
+
+## 🏗️ System Architecture
+
+The platform follows a modular frontend–backend architecture.
+
+**React + TypeScript Frontend**  
+↓ REST API Communication  
+**Python FastAPI Backend**  
+↓  
+**Venue Data & API Services**
+
+The frontend provides the interactive command dashboard and simulation experience, while the backend exposes API services for application integration and future expansion.
+
+---
+
+## 🤖 AI Development Roadmap
+
+CROWDGUARD X is being developed progressively, with advanced AI capabilities planned beyond the current prototype.
+
+| Phase | Development Goal |
+|---|---|
+| Phase 1 | Interactive Digital Twin and Scenario-Based Simulation |
+| Phase 2 | Historical Crowd Data Integration |
+| Phase 3 | ML-Based Density and Congestion Prediction |
+| Phase 4 | AI-Assisted Evacuation Route Optimisation |
+| Phase 5 | Real-Time CCTV/IoT Integration and Predictive Alerts |
+
+**Note:** Advanced ML prediction, live sensor integration, and autonomous decision-making are future development objectives.
+
+---
+
+## 📊 Prototype Status
+
+**Functional MVP Developed and Deployed**
+
+- Interactive command dashboard developed.
+- Venue selection and scenario-based simulation available.
+- Before vs After comparison experience implemented.
+- Frontend and backend deployed on Vercel.
+- Frontend–backend API connectivity successfully tested.
+- Further backend integration and advanced AI development are ongoing.
+
+The current prototype demonstrates the platform's concept and interactive workflow. It is not a certified real-world emergency control system.
+
+---
+
+## 🌍 Impact & Scalability
+
+- Supports proactive crowd-management planning.
+- Enables virtual testing without exposing real crowds to experimental interventions.
+- Adaptable to railway stations, temples, stadiums, festivals, and metro networks.
+- Software-first architecture supports cost-effective expansion.
+- Modular design enables future integration with real-time data sources.
+
+---
+
+## 📚 Research Basis
+
+The project concept draws inspiration from pedestrian dynamics, crowd simulation, digital twin modelling, and scenario-based emergency planning.
+
+**Reference:**
+
+Helbing, D., Farkas, I., & Vicsek, T. (2000). *Simulating Dynamical Features of Escape Panic*. Nature.
+
+https://doi.org/10.1038/35035023
+
+This reference provides scientific background and does not imply that the prototype implements the paper's complete mathematical model.
+
+---
+
+## 🌟 Our Vision
+
+**Making crowd safety predictive, intelligent, and accessible at scale.**
+
+*CROWDGUARD X — Predict Before Panic.*
