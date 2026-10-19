@@ -1,13 +1,11 @@
 """
 CrowdGuard X - Backend AI & Simulation Engine
-SISTec Innovation Hackathon 2026 - NovaTech
 Platform: AI-Powered Crowd Mobility Simulation and Management Platform
 """
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from fastapi.middleware.cors import CORSMiddleware
 from typing import List, Optional, Dict, Any
 import math
 
@@ -25,8 +23,8 @@ app.add_middleware(
         "https://crowdguard-x.vercel.app",
     ],
     allow_credentials=False,
-    allow_methods=["GET", "POST", "OPTIONS"],
-    allow_headers=["Content-Type", "Authorization"],
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
