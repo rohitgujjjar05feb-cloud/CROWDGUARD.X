@@ -7,6 +7,7 @@ Platform: AI-Powered Crowd Mobility Simulation and Management Platform
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
 from typing import List, Optional, Dict, Any
 import math
 
